@@ -134,3 +134,61 @@ main {
     font-size: 12px;
     color: #495057;
 }
+
+@media (max-width: 360px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 100px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .area-encriptada {
+        width: 320px;
+        font-size: 26px;
+    }
+
+    .advertencia {
+        margin-right: 50px;
+    }
+
+    .botones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .btn-encriptar, .btn-desencriptar {
+        width: 290px;
+        height: 50px;
+    }
+
+    .section-imagen-inicial {
+        margin-top: 40px;
+        margin-left: 24px;
+        height: 150px;
+    }
+
+    .img-muneco {
+        display: none;
+    }
+
+    .parrafo-inicial {
+        margin: 0;
+    }
+
+    .area-desencriptada {
+        height: 440px;
+        margin-top: 40px;
+    }
+
+    .copiar {
+        width: 200px;
+        height: 44px;
+    }
+}
